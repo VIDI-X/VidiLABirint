@@ -131,7 +131,7 @@ R58 – R61 – replace
 
 ``` 
 
-R208 – add 
+R207 – add 
 
 ```C++ 
       } else if (world[y][x] == vampire) { 
@@ -142,7 +142,7 @@ R208 – add
 ``` 
  
 
-R319 – add 
+R318 – add 
 
 ```C++ 
       if (world[y][x] == vampire && world[y][x - 1] == Player && PlayerGarlic > 0 ) { 
@@ -158,7 +158,7 @@ R319 – add
 
 ``` 
 
-R298 – add 
+R297 – add 
 
 ```C++ 
 void YouDied() { 
