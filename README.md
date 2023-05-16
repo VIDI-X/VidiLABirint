@@ -39,7 +39,7 @@ int PlayerKeys = 0;// Koliko ključeva na raspolaganju ima igrač
 ``` 
  
 
-R261 – add 
+R260 – add 
 
 ```C++ 
       if (world[y][x] == key && world[y + 1][x] == Player) { 
@@ -53,7 +53,7 @@ R261 – add
 ``` 
  
 
-R279 – add 
+R278 – add 
 
 ```C++ 
       if (world[y][x] == key && world[y][x + 1] == Player) { 
@@ -67,7 +67,7 @@ R279 – add
 ``` 
  
 
-R297 – add 
+R296 – add 
 
 ```C++ 
       if (world[y][x] == key && world[y][x - 1] == Player) { 
