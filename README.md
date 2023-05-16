@@ -97,7 +97,7 @@ R33 – add
 ``` 
 
 
-R206 – add 
+R205 – add 
 
 ```C++ 
       } else if (world[y][x] == door) { 
