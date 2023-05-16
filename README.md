@@ -8,7 +8,7 @@ R201 – add
 ``` 
 
 
-R243 – add 
+R240 – add 
 
 ```C++ 
       if (world[y][x] == key && world[y - 1][x] == Player) { 
@@ -17,6 +17,7 @@ R243 – add
         PlayerKeys++; 
         Serial.print("PlayerKeys: "); 
         Serial.println(PlayerKeys); 
+            
       } 
 ``` 
 
