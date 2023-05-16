@@ -229,7 +229,6 @@ void mapToSeraial() {
   }
 }
 
-
 void go_down() {
   for (int y = RAW - 1; y > 0; y--) {
     for (int x = 0; x < COL; x++) {
