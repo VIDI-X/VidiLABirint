@@ -106,7 +106,7 @@ R205 – add
 ``` 
 
  
-R308 – add 
+R306 – add 
 
 ```C++ 
       if (world[y][x] == door && world[y][x - 1] == Player && PlayerKeys > 0 ) { 
