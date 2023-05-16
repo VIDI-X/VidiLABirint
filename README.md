@@ -89,7 +89,7 @@ R58 – R59 – replace
 ``` 
  
 
-R13 – add 
+R33 – add 
 
 ```C++ 
 #define ILI9341_NAVYBLUE 0x006E //https://www.barth-dev.de/online/rgb565-color-picker/ 
