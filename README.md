@@ -5,6 +5,7 @@ R201 – add
 ```C++ 
       } else if (world[y][x] == key) { 
         tft.fillRect(x * ssf, y * ssf, CELL, CELL, ILI9341_GREEN); 
+            
 ``` 
 
 
@@ -33,6 +34,7 @@ R32 – add
 
 ```C++ 
 int PlayerKeys = 0;// Koliko ključeva na raspolaganju ima igrač 
+
 ``` 
  
 
@@ -46,6 +48,7 @@ R261 – add
         Serial.print("PlayerKeys: "); 
         Serial.println(PlayerKeys); 
       } 
+
 ``` 
  
 
@@ -59,6 +62,7 @@ R279 – add
         Serial.print("PlayerKeys: "); 
         Serial.println(PlayerKeys); 
       } 
+
 ``` 
  
 
@@ -72,6 +76,7 @@ R297 – add
         Serial.print("PlayerKeys: "); 
         Serial.println(PlayerKeys); 
       } 
+
 ``` 
  
 
@@ -87,6 +92,7 @@ R13 – add
 
 ```C++ 
 #define ILI9341_NAVYBLUE 0x006E //https://www.barth-dev.de/online/rgb565-color-picker/ 
+
 ``` 
 
 
@@ -95,6 +101,7 @@ R206 – add
 ```C++ 
       } else if (world[y][x] == door) { 
         tft.fillRect(x * ssf, y * ssf, CELL, CELL, ILI9341_NAVYBLUE); 
+
 ``` 
 
  
@@ -108,6 +115,7 @@ R308 – add
         Serial.print("PlayerKeys: "); 
         Serial.println(PlayerKeys); 
       } 
+
 ``` 
  
 
@@ -127,6 +135,7 @@ R208 – add
         tft.fillRect(x * ssf, y * ssf, CELL, CELL, ILI9341_CYAN); 
       } else if (world[y][x] == garlic) { 
         tft.fillRect(x * ssf, y * ssf, CELL, CELL, ILI9341_YELLOW); 
+
 ``` 
  
 
@@ -143,6 +152,7 @@ R319 – add
       if (world[y][x] == vampire && world[y][x - 1] == Player && PlayerGarlic < 1 ) { 
         YouDied(); 
       } 
+
 ``` 
 
 R298 – add 
@@ -158,4 +168,5 @@ void YouDied() {
   drawWorld(); 
   loadWorld(); 
 } 
+
 ``` 
