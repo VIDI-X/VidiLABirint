@@ -142,7 +142,7 @@ R207 – add
 ``` 
  
 
-R318 – add 
+R317 – add 
 
 ```C++ 
       if (world[y][x] == vampire && world[y][x - 1] == Player && PlayerGarlic > 0 ) { 
@@ -158,7 +158,7 @@ R318 – add
 
 ``` 
 
-R297 – add 
+R296 – add 
 
 ```C++ 
 void YouDied() { 
@@ -171,5 +171,6 @@ void YouDied() {
   drawWorld(); 
   loadWorld(); 
 } 
+
 
 ``` 
